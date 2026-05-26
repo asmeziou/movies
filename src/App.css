@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  padding: 40px 0 40px 40px;
+}
+h1 {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.listmovies {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  margin-bottom: 20px;
+}
+.listmovies img {
+  display: block;
+  flex-basis: 0;
+  width: 220px;
+}
